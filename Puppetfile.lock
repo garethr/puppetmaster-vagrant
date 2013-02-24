@@ -1,0 +1,26 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    ploperations/puppet (0.9.0)
+      ploperations/puppetlabs_apt (>= 0.0.1)
+      stahnma/puppetlabs_yum (>= 0.1.0)
+    ploperations/puppetlabs_apt (0.0.3)
+      puppetlabs/apt (>= 1.0.0)
+    puppetlabs/apt (1.1.0)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/ruby (0.0.2)
+    puppetlabs/stdlib (3.2.0)
+    stahnma/puppetlabs_yum (0.1.0)
+
+GIT
+  remote: https://github.com/ripienaar/puppet-concat.git
+  ref: master
+  sha: 442bd089588c3dd72564f0df077d732214a2422e
+  specs:
+    ripienaar/concat (0.2.0)
+
+DEPENDENCIES
+  ploperations/puppet (>= 0)
+  puppetlabs/ruby (>= 0)
+  ripienaar/concat (>= 0)
+
